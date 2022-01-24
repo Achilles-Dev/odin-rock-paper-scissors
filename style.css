@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    font-size: 30px;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main div {
+    display: flex;
+    gap: 20px;  
+    height: 150px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 20px;
+}
